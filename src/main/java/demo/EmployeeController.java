@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
 
 	@GetMapping("/employee")
-	public void getEmployee() {
-		System.out.println("Hello World!");
+	public String getEmployee() {
+		return "Hello World!";
 	}
 }
